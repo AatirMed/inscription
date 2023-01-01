@@ -1,26 +1,76 @@
-input{
-    outline: none;
+/* Q3 */
+.Q3,
+.Q4 ,.Q5,.Q1{
+  width: 965px;
+  margin: 0 auto;
 }
-.vert{
-    font-weight: bold;
-    color: green;
-}
-
-.Red{
-    font-weight: bold;
-    color: red;
+.world img {
+  width: 190px;
 }
 
-nav{
-
+.world {
+  display: flex;
+  padding: 5px 15px;
 }
-nav a {
-    text-decoration: none;
-    color: black;
-    margin-right: 10px;
-    font-weight: bold;
+.world div {
+  display: flex;
+  flex-direction: column;
 }
-nav a:hover{
-    color:green;
 
+.PaysCard,
+.Q4 .cart_Q4 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.PaysCard .card,
+.Q4 .cart_Q4 .card1 {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  padding: 10px 15px;
+}
+.PaysCard .card img,
+.Q4 .cart_Q4 .card1 img {
+  width: 100%;
+  height: 187.19px;
+}
+
+.PaysCard .card p,
+.world div p,
+.Q4 .cart_Q4 .card1 p {
+  margin: 11px;
+}
+.PaysCard .card span,
+.world div span,
+.Q4 .cart_Q4 .card1 span {
+  font-weight: bold;
+}
+
+/* Q4 */
+
+/* Q5 */
+.btn {
+  width: 80px;
+  height: 30px;
+  border: solid 1px black;
+  color: black;
+  border-radius: 5px;
+  margin-left: 10px;
+  background-color: transparent;
+}
+.btn:hover {
+  background-color: black;
+  color: #fff;
+}
+
+.Q1 nav{
+  width: 100%;
+  line-height: 70px;
+}
+.Q1 nav a{
+  text-decoration: none;
+  margin: 0px 10px;
 }
