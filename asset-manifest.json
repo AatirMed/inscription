@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/inscription/static/css/main.31d6cfe0.css",
+    "main.js": "/inscription/static/js/main.1df4f257.js",
+    "static/js/787.7d0e6ca8.chunk.js": "/inscription/static/js/787.7d0e6ca8.chunk.js",
+    "index.html": "/inscription/index.html",
+    "main.1df4f257.js.map": "/inscription/static/js/main.1df4f257.js.map",
+    "787.7d0e6ca8.chunk.js.map": "/inscription/static/js/787.7d0e6ca8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.1df4f257.js"
+  ]
+}
